@@ -1,0 +1,29 @@
+# NAVIGATION
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# COMMON DIRECTORIES
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias dc="cd ~/Documents"
+alias dev="cd ~/Developer"
+alias p="cd ~/Documents/projects"
+alias home="cd ~"
+
+# GIT
+alias g="git"
+alias gs="git status"
+alias gd="git diff"
+alias gb="git branch"
+alias gm="git checkout master"
+alias gac="git add * && git commit -m"
+
+# TERMINAL OPTIONS
+alias loginon="rm ~/.hushlogin"
+alias loginoff="touch ~/.hushlogin"
+alias c="clear"
+
+# PYTHON
+alias pip="pip3"
